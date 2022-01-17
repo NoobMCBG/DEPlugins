@@ -55,10 +55,15 @@ msg-disable-fallied: "{prefix}§c fallied disabled plugin {plugin}"
 
 ## For Developer
 - You can access to FakeDEPugins by using `FakeDEPlugins::getInstance()`
-Basic Usage:
+- Fake Disable Usage:
 ```php
 $plugin = FakeDEPlugins::getInstance()->getPluginByName("Plugin");
 FakeDEPlugins::getInstance()->setDisablePlugin($plugin);
+```
+- Unfake Disable Usage:
+```php
+$plugin = FakeDEPlugins::getInstance()->getPluginByName("Plugin");
+FakeDEPlugins::getInstance()->setEnablePlugin($plugin);
 ```
 
 <br>
