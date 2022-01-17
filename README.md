@@ -55,9 +55,11 @@ msg-disable-fallied: "{prefix}§c fallied disabled plugin {plugin}"
 
 ## For Developer
 - You can access to FakeDEPugins by using `FakeDEPlugins::getInstance()`
-- You can find the plugin using `getPluginByName()`
-- You can fake deactivate plugins by `setDisablePlugin()`
-- You can reactivate the fake plugin by `setEnablePlugin()`
+Basic Usage:
+```php
+$plugin = FakeDEPlugins::getInstance()->getPluginByName("Plugin");
+FakeDEPlugins::getInstance()->setDisablePlugin($plugin);
+```
 
 <br>
 
