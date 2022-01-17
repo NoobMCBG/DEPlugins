@@ -48,8 +48,16 @@ msg-disable-fallied: "{prefix}§c fallied disabled plugin {plugin}"
 ## Permissions
 | **Permission** | **Description** | **Default** |
 | --- | --- | --- |
-| **deplugins.enable** | **Permissions use command unfake disable plugins** | **op** |
-| **deplugins.disable** | **Permissions use command fake disable plugins** | **op** |
+| **`deplugins.enable`** | **Permissions use command unfake disable plugins** | **op** |
+| **`deplugins.disable`** | **Permissions use command fake disable plugins** | **op** |
+
+<br>
+
+## For Developer
+- You can access to FakeDEPugins by using `FakeDEPlugins::getInstance()`
+- You can find the plugin using `getPluginByName($plugin)`
+- You can fake deactivate plugins by `setDisablePlugin($plugin)`
+- You can reactivate the fake plugin by `setEnable Plugin($plugin)`
 
 <br>
 
