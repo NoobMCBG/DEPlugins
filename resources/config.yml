@@ -1,0 +1,18 @@
+---
+# Prefix Plugins
+prefix: "§e[DEPlugins]"
+
+# Use & to charge a colored
+# Use {prefix} to get the prefix
+# Use {plugin} to see if the plugin has just been enabled or disabled
+
+# Message Enable Plugins Successfully
+msg-enable-successfully: "{prefix}§a successfully enabled plugin {plugin}"
+# Message Enable Plugins Fallied
+msg-enable-fallied: "{prefix}§c fallied enabled plugin {plugin}"
+
+# Message Disable Plugins Successfully
+msg-disable-successfully: "{prefix}§a successfully disabled plugin {plugin}"
+# Message Disable Plugins Fallied
+msg-disable-fallied: "{prefix}§c fallied disabled plugin {plugin}"
+...

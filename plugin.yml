@@ -1,0 +1,15 @@
+name: FakeDEPlugins
+main: NoobMCBG\FakeDEPlugins\FakeDEPlugins
+api: 4.0.0
+version: 1.0.0
+author: NoobMCBG
+description: Fake deactivate and activate a plugin with just one in-game command
+website: https://github.com/NoobMCBG
+
+permissions:
+  deplugins.enable:
+    description: Permissions use command unfake disable plugins
+    default: op
+  deplugins.disable:
+    description: Permissions use command fake disable plugins
+    default: op
