@@ -12,6 +12,14 @@
 - Fake disable plugins
 
 <br>
+  
+## Commands
+| **Commands** | **Description** |
+| --- | --- |
+| **/disableplugin** | **Command fake disable plugins** |
+| **/enableplugin** | **Command unfake disable plugins** |
+  
+<br>
 
 ## Config
 ```
