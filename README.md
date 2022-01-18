@@ -2,6 +2,8 @@
 <h1>DEPlugins | v1.0.0<h1>
 </div>
 <p align="center">
+<a href="https://poggit.pmmp.io/p/DEPlugins"><img src="https://poggit.pmmp.io/shield.state/DEPlugins"></a>
+<br>
 ✔️ Fake deactivate and activate a plugin with just one in-game command ✔️
 </p>
 
