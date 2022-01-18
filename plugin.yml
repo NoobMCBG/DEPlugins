@@ -1,0 +1,15 @@
+name: DEPlugins
+main: NoobMCBG\DEPlugins\DEPlugins
+api: 4.0.0
+version: 1.0.0
+author: NoobMCBG
+description: Deactivate and activate a plugin with just one in-game command
+website: https://github.com/NoobMCBG
+
+permissions:
+  deplugins.enable:
+    description: Permissions use command enable plugins
+    default: op
+  deplugins.disable:
+    description: Permissions use command disable plugins
+    default: op
