@@ -16,7 +16,7 @@ class DisablePluginCommands extends Command implements PluginOwned {
 
 	public function __construct(DEPlugins $plugin){
 		$this->plugin = $plugin;
-		parent::__construct("disableplugin", "Command fake disable plugins", null, ["dp", "disableplugins"]);
+		parent::__construct("disableplugin", "Command disable plugins", null, ["dp", "disableplugins"]);
 		$this->setPermission("deplugins.disable");
 	}
 
