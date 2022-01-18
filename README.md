@@ -8,8 +8,7 @@
 <br>
 
 ## Features
-- Fake deactivate and activate a plugin with just one in-game command
-- Fake disable plugins
+- Deactivate and activate a plugin with just one in-game command
 
 <br>
   
