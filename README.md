@@ -1,9 +1,7 @@
 <div align="center">
-<h1>FakeDEPlugins | v1.0.0<h1>
+<h1>DEPlugins | v1.0.0<h1>
 </div>
 <p align="center">
-<a href="https://poggit.pmmp.io/p/FakeDEPlugins"><img src="https://poggit.pmmp.io/shield.state/FakeDEPlugins"></a>
-<br>
 ✔️ Fake deactivate and activate a plugin with just one in-game command ✔️
 </p>
 
@@ -18,8 +16,8 @@
 ## Commands
 | **Commands** | **Description** |
 | --- | --- |
-| **/disableplugin** | **Command fake disable plugins** |
-| **/enableplugin** | **Command unfake disable plugins** |
+| **/disableplugin** | **Command disable plugins** |
+| **/enableplugin** | **Command enable plugins** |
   
 <br>
 
@@ -50,19 +48,19 @@ msg-disable-fallied: "{prefix}§c fallied disabled plugin {plugin}"
 ## Permissions
 | **Permission** | **Description** | **Default** |
 | --- | --- | --- |
-| **`deplugins.enable`** | **Permissions use command unfake disable plugins** | **op** |
-| **`deplugins.disable`** | **Permissions use command fake disable plugins** | **op** |
+| **`deplugins.enable`** | **Permissions use command enable plugins** | **op** |
+| **`deplugins.disable`** | **Permissions use command disable plugins** | **op** |
 
 <br>
 
 ## For Developer
 - You can access to FakeDEPugins by using `FakeDEPlugins::getInstance()`
-- Fake Disable Usage:
+- Disable Usage:
 ```php
 $plugin = FakeDEPlugins::getInstance()->getPluginByName("Plugin");
 FakeDEPlugins::getInstance()->setDisablePlugin($plugin);
 ```
-- Unfake Disable Usage:
+- Enable Usage:
 ```php
 $plugin = FakeDEPlugins::getInstance()->getPluginByName("Plugin");
 FakeDEPlugins::getInstance()->setEnablePlugin($plugin);
