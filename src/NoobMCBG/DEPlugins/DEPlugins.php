@@ -22,8 +22,13 @@ class DEPlugins extends PluginBase implements Listener {
 		$this->saveDefaultConfig();
 		$this->getServer()->getCommandMap()->register("DEPlugins", new DisablePluginCommands($this));
 		$this->getServer()->getCommandMap()->register("DEPlugins", new EnablePluginCommands($this));
+		$this->checkUpdate();
 		self::$instance = $this;
 	}
+	
+	public function checkUpdate(bool $isRetry = false) : void {
+               $this->getServer()->getAsyncPool()->submitTask(new CheckUpdateTask($this->getDescription()->getName(), $this->getDescription()->getVersion()));
+        }
 
 	public function getPluginByName($plugin){
         return $this->getServer()->getPluginManager()->getPlugin($plugin);
