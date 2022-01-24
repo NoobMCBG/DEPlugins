@@ -71,5 +71,5 @@ DEPlugins::getInstance()->setEnablePlugin($plugin);
 
 ## Install
 - Step 1: Click the "Direct Download" button to download the plugin
-- Step 2: move the file "FakeDEPlugins.phar" into the file "plugins"
+- Step 2: move the file "DEPlugins.phar" into the file "plugins"
 - Step 3: Restart server for plugins to work
